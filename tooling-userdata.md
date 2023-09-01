@@ -12,7 +12,7 @@ systemctl enable php-fpm
 git clone https://github.com/Seyifunmi0604/tooling.git
 mkdir /var/www/html
 cp -R /tooling-1/html/*  /var/www/html/
-cd /tooling-1
+cd /tooling
 mysql -h shproj15-database.ctekzx8zrnrt.us-east-1.rds.amazonaws.com -u SHadmin -p toolingdb < tooling-db.sql
 cd /var/www/html/
 touch healthstatus
